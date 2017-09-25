@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { SortPipe } from './app.sort';
+import { DataService } from './data.service';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,7 @@ import { SortPipe } from './app.sort';
       { path: '**', component: HomeComponent}
     ])
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
