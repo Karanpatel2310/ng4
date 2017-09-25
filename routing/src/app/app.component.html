@@ -3,7 +3,7 @@
 <h3>{{ name | uppercase }}</h3>
 <h3>{{ name | lowercase }}</h3> -->
 
-<h3>{{ day | date }}</h3>
+<!-- <h3>{{ day | date }}</h3>
 <p>The hero's birthday is {{ day | date:format }}</p>
 <h3>{{ day | date:"dd/mm/yy"}} </h3>
 <h3>{{ day | date: 'shortDate' }}</h3>
@@ -11,4 +11,8 @@
 
 <h3>{{ day | date | uppercase}}</h3>
 <h3>{{ day | date | lowercase}}</h3>
-<h3>{{  day | date:'fullDate' | uppercase}}</h3>
+<h3>{{  day | date:'fullDate' | uppercase}}</h3> -->
+
+{{ arr | sort: 'ascending' }}
+<br>
+{{arr | sort: 'descending'}}

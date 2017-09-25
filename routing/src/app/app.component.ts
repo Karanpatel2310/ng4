@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  name = 'karanpatel';
-  day = new Date(1995, 24, 9);
+  arr = [3, 7, 8, 2, 1];
 }

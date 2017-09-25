@@ -14,9 +14,11 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { SortPipe } from './app.sort';
 
 @NgModule({
   declarations: [
+    SortPipe,
     AppComponent,
     AccountComponent,
     ProductComponent,
