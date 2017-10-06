@@ -2,7 +2,7 @@ h3{
     color: dodgerblue;
 }
 .selected {
-  background-color: #CFD8DC !important;
+  background-color: red !important;
   color: white;
 }
 .heroes {
